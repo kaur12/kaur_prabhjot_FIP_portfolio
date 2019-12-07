@@ -103,6 +103,7 @@ p
 	margin-left: auto;
 }
 
+
 #MainNav button.expanded
 {
 	
@@ -164,11 +165,12 @@ p
 	margin-left: 65%;
 }
 
-#button
+#button img
 {
 	width: 40px;
 	height: 55px;
 }
+
 #About
 {
 	margin-top: 10px;
@@ -203,6 +205,28 @@ p
 }
 
 #InfoAboutPrabh p
+{
+	font-size: 16px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	line-height: 25px;
+}
+
+#InfoAboutPrabh2
+{
+	margin-top: 20px;
+}
+
+#InfoAboutPrabh2 h3
+{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #AC3B61;
+	text-align: left;
+}
+
+#InfoAboutPrabh2 p
 {
 	font-size: 16px;
 	margin-bottom: 20px;
@@ -262,6 +286,14 @@ p
 	text-align: center;
 }
 
+#hobbies
+{
+		background-color: #CEC0B7;
+	margin-top: -20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
 .hobbyIcons
 {
 	width: 50%;
@@ -281,12 +313,47 @@ p
 {
 	background-color: #EEE2DC;
 	padding: 10px;
+	margin-top: -20px;
+	padding-top: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
+
 
 .work1
 {
 	position: relative;
 	width: 100%;
+}
+
+.work2
+{
+	position: relative;
+	width: 100%;	
+}
+
+.work3
+{
+	position: relative;
+	width: 100%;	
+}
+
+.work4
+{
+	position: relative;
+	width: 100%;	
+}
+
+.work5
+{
+	position: relative;
+	width: 100%;	
+}
+
+.work6
+{
+	position: relative;
+	width: 100%;	
 }
 
 .workImg
@@ -329,12 +396,82 @@ p
 	padding-top: 60px;
 }
 
-
-#contact
+.work2:hover .workImg
 {
-	margin-top: 20px;
+	opacity: 0.25;
 }
 
+.work2:hover .slide
+{
+	bottom: 0;
+	height: 100%;
+	padding-top: 60px;
+}
+
+.work3:hover .workImg
+{
+	opacity: 0.25;
+}
+
+.work3:hover .slide
+{
+	bottom: 0;
+	height: 100%;
+	padding-top: 60px;
+}
+
+.work4:hover .workImg
+{
+	opacity: 0.25;
+}
+
+.work4:hover .slide
+{
+	bottom: 0;
+	height: 100%;
+	padding-top: 60px;
+}
+
+.work5:hover .workImg
+{
+	opacity: 0.25;
+}
+
+.work5:hover .slide
+{
+	bottom: 0;
+	height: 100%;
+	padding-top: 60px;
+}
+
+.work6:hover .workImg
+{
+	opacity: 0.25;
+}
+
+.work6:hover .slide
+{
+	bottom: 0;
+	height: 100%;
+	padding-top: 60px;
+}
+
+
+#contact
+	{
+		background-color: #CEC0B7;
+		margin-top:0;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		margin-left: 15px;
+	margin-right: 15px;
+	}
+
+#contact h2
+{
+	text-align: center;
+	font-size: 20px;
+}
 #contactForm
 {
 	background-color: #EEE2DC;
@@ -346,6 +483,46 @@ p
 #contact img
 {
 	padding: 20px;
+	margin-left: 8%;
+}
+
+.footer
+{
+	align-content: center;
+	background-color: #EEE2DC;
+	padding-left: 40%;
+  margin-top: -20px;
+	padding-bottom: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.socialMedia
+
+{
+	margin-left: -12%;
+}
+
+.socialMedia img
+{
+	width: 30px;
+	height: 30px;
+	margin-top: 30px;
+  margin-left: 3%;
+}
+
+#logoIconFooter
+{
+	width: 40px;
+	margin-left: 12%;
+	margin-top: 20px;
+}
+
+.footer p
+{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: -20%;
 }
 
 
@@ -431,7 +608,31 @@ p
 		margin-left: 0;
 	}
 	
+	.workImg
+	{
+		width: 50%;
+		height: 50%;
+	}
 	
+	.slide
+	{
+		width: 50%;
+	}
+	
+	#contact img
+	{
+		margin-left: 25%;
+	}
+	
+	.socialMedia
+	{
+		margin-left: -8%;
+	}
+	
+	.footer p
+	{
+		margin-left: -8%;
+	}
 	
 }
 
@@ -439,6 +640,38 @@ p
 
 
 @media screen and (min-width: 760px) {
+	
+	.logo
+	{
+		background-color: white;
+		padding: 10px;
+		border-radius: 20px;
+	}
+	
+	.aboutText
+	{
+		display: flex;
+		margin-top: 40px;
+	}
+	
+	#InfoAboutPrabh
+	{
+		width: 60%;
+	}
+	.moving
+	{
+		width: 50%;
+		margin-left: 0;
+	}
+	
+
+	#video video
+	{
+		width: 1200px;
+		height: 400px;
+		max-width: 100%;
+		margin-top: 40px;
+	}
 	
 #logoIcon
 	{
@@ -456,23 +689,19 @@ p
 }
 	#About h2
 	{
-		font-size: 26px;
+		font-size: 19px;
 	}
 	
 	#About h3
 	{
-		font-size: 20px;
+		font-size: 18px;
 	}
 	
 	#About p
 	{
-		font-size: 18px;
+		font-size: 14px;
 	}
 	
-	.moving
-	{
-		margin-left: 20%;
-	}
 	
 	#video video
 	{
@@ -495,7 +724,12 @@ p
 	height: auto;
 	margin: 20px auto;
 }
-
+	
+	#skills h2
+	{
+		text-align: center
+	}
+	
 .slide
 {
 	transition: .3s ease;
@@ -513,7 +747,7 @@ p
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	text-align: center;
-	margin-left: -35px;
+	margin-left: 0px;
 }
 
 .work1:hover .workImg
@@ -545,6 +779,8 @@ p
 	{
 		margin-left: 0;
 	}
+	
+	
 
 
 
@@ -574,6 +810,7 @@ p
 		border-radius: 20px;
 	}
 	
+	
 	.aboutText
 	{
 		display: flex;
@@ -583,16 +820,19 @@ p
 	#InfoAboutPrabh h2
 	{
 		margin-top: 30px;
+		font-size: 20px;
 	}
-	#InfoAboutPrabh h3
+	#InfoAboutPrabh2 h3
 	{
 		margin-top: 30px;
+		font-size: 20px;
 	}
 	
 	#InfoAboutPrabh p
 	{
 		margin-top: 30px;
-		line-height: 40px;		
+		font-size: 18px;
+		line-height: 25px;
 	}
 	.moving
 	{
@@ -617,11 +857,13 @@ p
 	#skills
 	{
 		margin-top: 40px;
+		margin-bottom: 40px;
 	}
 	
 	#skills h2
 	{
 		margin-top:40px;
+		font-size: 24px;
 	}
 	
 	.skills
@@ -630,16 +872,31 @@ p
 		margin-right: 30px;
 	}
 	
+	#skills p
+	{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	
+	#hobbies
+	{
+		padding-top: 0;
+	}
+	
 	#hobbies h2
 	{
 		margin-top: 40px;
+		font-size: 24px;
+	}
+	
+	#hobbies h3
+	{
+		font-size: 20px;
 	}
 	
 	.work h2
 	{
-		font-size: 28px;
-		text-align: center;
-		margin-top: 40px;
+		font-size: 24px;
 	}
 	
 	.workCon1
@@ -655,6 +912,90 @@ p
 	.workCon3
 	{
 		display: flex;
+	}
+	
+	.slide
+	{
+		margin-left: 0px;
+	}
+	
+		.work1:hover .slide
+	{
+		bottom: 0;
+		height: 90%;
+		padding-top: 60px;
+	}
+	
+		.work2:hover .slide
+	{
+		bottom: 0;
+		height: 90%;
+		padding-top: 60px;
+	}
+	
+		.work3:hover .slide
+	{
+		bottom: 0;
+		height: 90%;
+		padding-top: 60px;
+	}
+	
+		.work4:hover .slide
+	{
+		bottom: 0;
+		height: 90%;
+		padding-top: 60px;
+	}
+	
+		.work5:hover .slide
+	{
+		bottom: 0;
+		height: 90%;
+		padding-top: 60px;
+	}
+	
+	.work6:hover .slide
+	{
+		bottom: 0;
+		height: 90%;
+		padding-top: 60px;
+	}
+	
+	#button img
+	{
+		width: 40px;
+		height: 50px;
+	}
+	
+	#contact
+	{
+		background-color: #CEC0B7;
+		margin-top:0;
+		padding-top: 10px;
+	}
+	#contactForm label 
+	{
+		margin-left: 50px;
+	}
+	
+	#contactForm input 
+	{
+		margin-left: 50px;
+	}
+	
+	#contactForm textarea 
+	{
+		margin-left: 50px;
+	}
+	
+	.footer p
+	{
+		margin-left: 3%;
+	}
+	
+	.socialMedia
+	{
+		margin-left: 0;
 	}
 	
 	
