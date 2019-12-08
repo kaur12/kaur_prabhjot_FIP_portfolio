@@ -1,37 +1,34 @@
- kaur_p_svg_poster
- 
-A responsive one-page application shows interactive poster of use of social media.
+FINAL INTEGRATED ASSIGNMENT: Portfolio Website
+
+The portfolio website developed this term is used to express work and skills as designer and develop. 
 
 
-DESCRIPTION
 
-The premise of this task is to take complex data – measurements, inquire about outcomes, information examination, structures, outlines, investigation, and so on., – and present it in the most productive and effectively saw way that could be available.
+Description
 
-This poster represents the information about the use of social media by different ages. Most application used is Facebook then Instagram, Twitter, Snapchat and Linkin.
+One page website which presents about, work and contact. this website is basically build on HTML, CSS and JS.
 
+It is Hosted by heroku.com.
 
-cd git clone and watch it! 
+Fell free to visit it!
 
+https://prabhjotbhatti.herokuapp.com 
 
-DEPENDENCIES
+Getting Started
 
-HTML5 
+Dependencies
 
+HTML5
 CSS3
-
 SASS
-
 NodeJS
-
 JavaScript
-
 Express
-
 Installing
 
+cd to the directory of your choice and hack away!
 
-
-AUTHOR
+Author
 
 Prabhjot Kaur
 
@@ -40,14 +37,9 @@ License
 MIT
 
 
-ACKNOWLEDGMENTS
+Acknowledgments
 
 awesome-readme
-
 README Formatting
-
 Meyerweb CSS Reset
-
-MySQL Connection Pooling
-
 Trevor Van Rys
