@@ -5,22 +5,26 @@ var path = require('path');
 const sql = require('../utils/sql');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  //res.render('index', { title: 'Express' });
-  console.log('sent back a static file');
-  res.sendFile((path.join(__dirname, "../views/index.html")));
+router.get('/', function (req, res, next) {
+  res.render('index', { title: 'Home Page' });
+  // console.log('sent back a static file');
+  // res.sendFile((path.join(__dirname, "../views/index.html")));
 });
 
-// get the dynamic data that goes with each svg graphic
-router.get('/info/:target', (req, res) => {
+// get portfolio page
+router.get('/portfolio', function (req, res, next) {
   // set up your sql query here and retrieve the relevant data
-  let query = `SELECT * FROM tbl_infographic_poster WHERE id="${req.params.target}"`;
+  let query = `SELECT * FROM tbl_portfolio`;
 
   sql.query(query, (err, result) => {
     if (err) { console.log(err); }
 
+
     console.log(result);
-    res.json(result[0]);
+
+    res.render('portfolio', {title: 'Portfolio' , data: result});
   })
-})
+});
+
+
 module.exports = router;
