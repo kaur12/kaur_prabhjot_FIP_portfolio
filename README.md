@@ -2,6 +2,7 @@ FINAL INTEGRATED ASSIGNMENT: Portfolio Website
 
 The portfolio website developed this term is used to express work and skills as designer and develop. 
 
+SQL file: utils > db_portfolio.sql
 
 
 Description
