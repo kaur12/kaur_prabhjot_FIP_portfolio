@@ -49,6 +49,7 @@ a
   font-family: 'Quicksand', sans-serif;
 }
 
+
 h2
 {
 	font-family: 'Quicksand', sans-serif;
@@ -239,6 +240,7 @@ p
 {
 	width: 400px;
 	height: 400px;
+	display: none;
 }
 
 #skills
@@ -317,6 +319,25 @@ p
 	padding-top: 20px;
 	margin-left: 15px;
 	margin-right: 15px;
+
+	// .more {
+	// 	width: 100px;
+	// 	background-color: #8fa771;
+	// 	text-align: center;
+	// 	display: block;
+	// 	border-radius: 5px;
+	// 	padding-top: 5px;
+	// 	padding-bottom: 5px;
+	// 	color: #000;
+	// 	transition: all .5s linear;
+	//   }
+	  
+	//   .more:hover {
+	// 	background-color: #3bf73b;
+	// 	border-radius: 20px;
+	// 	transition: all .5s linear;
+	//   }
+	
 }
 
 
@@ -324,6 +345,7 @@ p
 {
 	position: relative;
 	width: 100%;
+
 }
 
 .work2
@@ -569,8 +591,26 @@ p
 	#video
 	{
 		margin-left: 15%;
+		display: none;
 	}
 	
+	.more {
+		width: 100px;
+		background-color: #8fa771;
+		text-align: center;
+		display: block;
+		border-radius: 5px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		color: #000;
+		transition: all .5s linear;
+	  }
+	  
+	  .more:hover {
+		background-color: #3bf73b;
+		border-radius: 20px;
+		transition: all .5s linear;
+	  }
 	.skills
 	{
 		display: flex;
