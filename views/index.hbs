@@ -36,18 +36,12 @@
 							 <p>Design page layouts and templates. Collaborate with UX, marketing, engineering, and other teams.Work with front-end web developers to deploy designs.
 							  Create and maintain a database of design assets. Creating website layout/user interfaces by using standard HTML/CSS practices. Ability to work and thrive in a fast-paced environment, learn rapidly and master diverse web technologies and techniques.
 							</p>
+							<a href="https://drive.google.com/file/d/12diCqpqULbUvEMuQWxY9-3SPFPWVxQwO/view?usp=sharing">My Resume</a>
 						</div>
 						</div>
 						  <img class="moving" src="images/pic.svg" alt="picjpg">
 					</section>
 				        
-
-				        <div id="video">
-				            <video muted autoplay controls>
-				            	<source src="video/Self_Promotional_Video.mp4" type="video/mp4">
-				            </video>
-							<a class="more open-lightbox" href="#">Read More</a>
-					 	</div>
 
 					 </div>
 
@@ -109,6 +103,29 @@
 
 			<div class="work" id=work>
 				<h2>WORK</h2>
+				
+				<h1 class="featuredProjects">Featured Projects</h1>
+				<section class="caseStudy">
+					
+					<div class="caseStudy1">
+						<h2>Brilliant English</h2>
+						<p>A basic website of English Academy created using html and css.</p>
+						
+						<img src="images/brilliantEnglish.svg" alt="brilliant-english" class="caseImg"><br>
+						<a href="/portfolio">More</a>
+					</div>
+
+					<div class="caseStudy2">
+						<h2>TRAA</h2>
+						<p>A responsive website recreated by using html, css and js.</p>
+						
+						<img src="images/TRAAlogo.svg" alt="TRAA" class="caseImg"><br>	
+						<a href="/portfolio">More</a>		
+					</div>
+
+				</section>
+
+
 				<section class="workCon1">
 					<h2 class="hidden">WORK</h2>
 
@@ -171,8 +188,29 @@
 					</div>
 					</section>
 				</section>
+
+				<section class="workCon4">
+					<section class="work7">
+						<img src="images/chatApp.svg" alt="chaApp" class="workImg">
+						<div class="slide">
+						<h2>Multimedia</h2>
+						<p>Prabhjot Kaur's Chat App created for chatting with other people. Build with HTML, CSS, Javascript, SASS Vue & Node.
+						</p>
+					</div>
+					</section>
+
+					<section class="work8">
+						<img src="images/sports.svg" alt="sports" class="workImg">
+						<div class="slide">
+						<h2>Video Producion</h2>
+						<p>this was assignment of video production.This is just one camera scene.Opening video was made from different angle of stadium. Video was made of a stadium of sccocer. 
+						</p>
+					</div>
+					</section>
+				</section>
 				
 			</div>
+
 
 
 			<div id="contact">
@@ -180,18 +218,20 @@
 					<h2 class="hidden">Contact Form</h2>
 					<h2>Chat!</h2>
 
-					<form action="/action_page.php" class="form">
-							<label for="fname">First Name</label><br>
-							<input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+					<section class="contact-form">
+						<form action="action_page.php" class="form" method="post">
+							<label for="name"> Name</label><br>
+							<input type="text" id="name" name="name" placeholder="Your name.." class="formControl" required ><br>
 
-							<label for="lname">Last Name</label><br>
-							<input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+							<label for="email">Email</label><br>
+							<input type="email" id="email" name="email" placeholder="Your Email.." class="formControl" required><br>
 
 							<label for="message">Message</label><br>
-							<textarea name="message" id="message" placeholder="Write your message here....."></textarea><br>
+							<textarea name="message" id="message" placeholder="Write your message here....." rows="4" class="formControl" required></textarea><br>
 
-							<input type="submit" value="Submit" id="submit">
+							<input type="submit" value="Submit" id="submit" class="formControl">
 						</form>
+					</section>
 				
 				</section>
                 <img src="images/Pic2.jpg">
