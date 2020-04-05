@@ -176,7 +176,7 @@ p
 {
 	margin-top: 10px;
 	padding: 10px;
-	background-color: #CEC0B7;
+	background-color: white;
 }
 
 #About h2
@@ -290,7 +290,7 @@ p
 
 #hobbies
 {
-		background-color: #CEC0B7;
+		background-color: white;
 	margin-top: -20px;
 	padding-top: 20px;
 	padding-bottom: 30px;
@@ -340,6 +340,19 @@ p
 	
 }
 
+.caseStudy
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.caseImg 
+{
+	width: 400px;
+	height: 400px;
+	max-width: 50%;
+}
 
 .work1
 {
@@ -378,6 +391,7 @@ p
 	width: 100%;	
 }
 
+
 .workImg
 {
 	display: block;
@@ -393,7 +407,7 @@ p
 	width: 100%;
 	height: 0;
 	bottom: 100%;
-	background-color: #CEC0B7;
+	background-color: white;
 	overflow: hidden; 
 	position: absolute;
 	color: #123C69;
@@ -481,7 +495,7 @@ p
 
 #contact
 	{
-		background-color: #CEC0B7;
+		background-color: white;
 		margin-top:0;
 		padding-top: 10px;
 		padding-bottom: 20px;
@@ -654,6 +668,8 @@ p
 		height: 50%;
 	}
 	
+
+
 	.slide
 	{
 		width: 50%;
@@ -777,7 +793,7 @@ p
 	width: 50%;
 	height: 0;
 	bottom: 100%;
-	background-color: #CEC0B7;
+	background-color: white;
 	overflow: hidden;
 	color: #123C69;
 	font-size: 20px;
@@ -840,7 +856,7 @@ p
 	
 	#mainHeader
 	{
-		background-color: #CEC0B7;
+		background-color: white;
 	}
 	
 	.logo
@@ -953,6 +969,12 @@ p
 	{
 		display: flex;
 	}
+
+	.workCon4
+	{
+		display: flex;
+	}
+
 	
 	.slide
 	{
@@ -1000,6 +1022,20 @@ p
 		height: 90%;
 		padding-top: 60px;
 	}
+
+	.work7:hover .slide
+	{
+		bottom: 0;
+		height: 90%;
+		padding-top: 60px;
+	}
+
+	.work8:hover .slide
+	{
+		bottom: 0;
+		height: 90%;
+		padding-top: 60px;
+	}
 	
 	#button img
 	{
@@ -1009,7 +1045,7 @@ p
 	
 	#contact
 	{
-		background-color: #CEC0B7;
+		background-color: white;
 		margin-top:0;
 		padding-top: 10px;
 	}
